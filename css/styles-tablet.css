@@ -1,0 +1,51 @@
+@media only screen and (min-width: 501px) {
+
+  body {
+    font-size: 16px;
+  }
+
+  #main-content-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+  }
+
+  #main-content {
+    width: 500px;
+  }
+
+  #form-content, #page-info-container, #sales-report, #summary-report, #turnover-report {
+
+  }
+
+  /* FOOTER */
+  #form-footer {
+    justify-content: center;
+  }
+  #form-footer > *:first-child {
+    margin-right: 125px;
+  }
+  #report-footer {
+    padding: 0 calc(50% - 250px);
+  }
+
+  /* FORM */
+  .form-input {
+    font-size: 14px;
+  }
+  .form-input-label.help > .label-text {
+    font-size: 14px;
+  }
+
+  /* NAV */
+  #page-title {
+    font-size: 28px;
+  }
+
+
+
+}

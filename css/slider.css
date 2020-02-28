@@ -1,0 +1,126 @@
+/* ------- FORM SLIDER ------- */
+
+/* CHROME, SAFARI, OPERA */
+input[type=range].form-slider {
+  -webkit-appearance: none;
+  height: auto;
+  padding: 0;
+  z-index: 5;
+}
+input[type=range].form-slider::-webkit-slider-runnable-track {
+  background-image: linear-gradient(to right, #23A2AE, #00D3A6);
+  border: 1px solid #00AFAC;
+  border-top: 0;
+  height: 8px;
+  width: 100%;
+  z-index: 5;
+}
+input[type=range].form-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  background: white;
+  border: 1px solid #00AFAC;
+  border-radius: 8px;
+  height: 20px;
+  margin-top: -6px;
+  width: 20px;
+  z-index: 5;
+}
+
+/* FIREFOX */
+input[type=range].form-slider::-moz-range-track {
+  background-image: linear-gradient(to right, #23A2AE, #00D3A6);
+  border: 1px solid #00AFAC;
+  border-top: 0;
+  height: 8px;
+  width: 100%;
+  z-index: 5;
+}
+input[type=range].form-slider::-moz-range-thumb {
+  background: white;
+  border: 1px solid #00AFAC;
+  border-radius: 8px;
+  height: 20px;
+  margin-top: -6px;
+  width: 20px;
+  z-index: 5;
+}
+
+/*!* IE *!*/
+input[type=range].form-slider::-ms-track {
+  background-image: linear-gradient(to right, #23A2AE, #00D3A6);
+  border: 1px solid #00AFAC;
+  border-top: 0;
+  height: 8px;
+  width: 100%;
+  z-index: 5;
+}
+input[type=range].form-slider::-ms-thumb {
+  background: white;
+  border: 1px solid #00AFAC;
+  border-radius: 8px;
+  height: 20px;
+  margin-top: -6px;
+  width: 20px;
+  z-index: 5;
+}
+
+/* ------- SALES LEAKAGE REPORT SLIDER ------- */
+
+/* CHROME */
+input[type=range].sales-slider {
+  -webkit-appearance: none;
+  height: auto;
+  margin-bottom: 8px;
+  padding: 0;
+  z-index: 5;
+}
+input[type=range].sales-slider::-webkit-slider-runnable-track {
+  background-color: #cfcfcf;
+  height: 8px;
+  width: 100%;
+  z-index: 5;
+}
+input[type=range].sales-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  background: #1AB0AC;
+  border: 1px solid #1AB0AC;
+  border-radius: 25px;
+  height: 24px;
+  margin-top: -8px;
+  width: 40px;
+  z-index: 5;
+}
+
+/* FIREFOX */
+input[type=range].form-slider::-moz-range-track {
+  background-color: #cfcfcf;
+  height: 8px;
+  width: 100%;
+  z-index: 5;
+}
+input[type=range].form-slider::-moz-range-thumb {
+  background: #1AB0AC;
+  border: 1px solid #1AB0AC;
+  border-radius: 25px;
+  height: 24px;
+  margin-top: -8px;
+  width: 40px;
+  z-index: 5;
+}
+
+/* IE */
+input[type=range].form-slider::-ms-track {
+  background-color: #cfcfcf;
+  height: 8px;
+  width: 100%;
+  z-index: 5;
+}
+input[type=range].form-slider::-ms-thumb {
+  background: #1AB0AC;
+  border: 1px solid #1AB0AC;
+  border-radius: 25px;
+  height: 24px;
+  margin-top: -8px;
+  width: 40px;
+  z-index: 5;
+}

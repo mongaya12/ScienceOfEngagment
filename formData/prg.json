@@ -1,0 +1,505 @@
+{
+ "generalInfo": [
+     {
+        "name": "Total Number of Stores",
+        "id": "totalStores",
+        "value": "1-5000",
+        "help": "Use the end of year store count as your number",
+        "addon": ""
+     },
+     {
+        "name": "Financial Year for Data",
+         "id": "finacialYearData",
+        "value": "2016",
+        "help": "",
+         "addon": "year"
+     },
+     {
+        "name": "Total Employees",
+         "id": "totalEmployees",
+        "value": "19,000",
+        "help": "Found in annual report",
+         "addon": ""
+     },
+     {
+        "name": "Average number of employees per store",
+        "id": "avgEmployeesStore",
+        "value": "1-100",
+        "help": "Found in annual report or through in store interview",
+         "addon": ""
+     },
+     {
+        "name": "Number of Days per week Store is Open",
+         "id": "daysOpen",
+        "value": "7",
+        "help": "days per week that store is open at all for business",
+         "addon": "days"
+     },
+     {
+        "name": "Average number of customers per day",
+         "id": "avgCustomersDay",
+        "value": "500",
+        "help": "",
+         "addon": ""
+     },
+     {
+        "name": "Average conversion rate",
+         "id": "avgConversionRate",
+        "value": "80",
+        "help": "Expressed as a percentage that represents the number of peope who visited and purchased something",
+         "addon": "%"
+     },
+     {
+        "name": "Products in Store",
+         "id": "productsInStore",
+        "value": "20,000",
+        "help": "Found in annual report",
+         "addon": ""
+     },
+     {
+        "name": "Typical Store  Sq. Ft.",
+         "id": "storeSqFt",
+        "value": "10,000",
+        "help": "Found in annual report",
+         "addon": ""
+     },
+     {
+        "name": "Distribution Centers",
+         "id": "distributionCenters",
+        "value": "3",
+        "help": "Found in annual report",
+         "addon": ""
+     },
+     {
+        "name": "Investment to open new store",
+         "id": "newStoreInvestment",
+        "value": "1,000,000",
+        "help": "Found in annual report",
+         "addon": "dollars"
+     },
+     {
+        "name": "% of store employees considered knowledgeable",
+         "id": "percentEmployeesKnowledgeable",
+        "value": "75",
+        "help": "Derived from instore interview",
+         "addon": "%"
+     },
+     {
+        "name": "Non-Store Employees",
+         "id": "nonStoreEmployees",
+        "value": "2,125",
+        "help": "11%",
+        "calculation": ".11",
+         "addon": ""
+     },
+     {
+        "name": "Store Empoloyees",
+         "id": "storeEmployees",
+        "value": "16,875",
+        "help": "89%",
+        "calculation": ".89",
+         "addon": ""
+     }
+ ],
+ "loyaltyProgram": [
+        {
+            "name": "Loyalty Members",
+            "id": "loyaltyMembers",
+            "value": "13,000,000",
+            "help": "Found in annual report",
+            "addon": ""
+         },
+        {
+            "name": "% of  net sales attributed to Loyalty members",
+            "id": "percentSalesLoyaltyMembers",
+            "value": "80",
+            "help": "Found in annual report",
+            "addon": "%"
+         },
+        {
+            "name": "Percentage of daily visitors that are loyalty members",
+            "id": "percentVisitorsLoyaltyMembers",
+            "value": "80",
+            "help": "Derived from instore interview",
+            "addon": "%"
+         },
+        {
+            "name": "Average increase in loyalty program transactions",
+            "id": "avgIncreaseLoyaltyTransactions",
+            "value": "5",
+            "help": "The percentage more that loyalty member spends per transaction",
+            "addon": "%"
+         }
+        
+     ],
+"financialInformation": [
+        {
+            "name": "Annual Revenue",
+            "id": "finance-annualRevenue",
+            "value": "2671000000",
+            "help": "This is found in the annual report. Also titled 'Net Sales'",
+            "addon": "dollars"
+         },
+        {
+            "name": "Year over Year revenue growth",
+            "id": "finance-yearOverYearRevenue",
+            "value": "20",
+            "help": "What the company saw in the last year over year analysis - change with no emphasis or program focus",
+            "addon": "%"
+         },
+        {
+            "name": "Net Income/Earnings",
+            "id": "finance-netIncome",
+            "value": "202849000",
+            "help": "This is found in the annual report and is the final number after costs attributed to Taxes, COGs, SG&A, Interest are subtracted.",
+            "addon": "dollars"
+         },
+        {
+            "name": "Year over Year Net Income growth",
+            "id": "finance-yearOverYearIncome",
+            "value": "15",
+            "help": "What the company saw in the last year over year analysis - change with no emphasis or program focus",
+            "addon": "%"
+         },
+        {
+            "name": "% of revenue attributed to eCommerce",
+            "id": "finance-percentRevenueEcommerce",
+            "value": "3.6",
+            "help": "This can be found in annual reports.  It is essential to understand what rate of the revenue is from eCommerce to ensure credibility",
+            "addon": "%"
+         },
+        {
+            "name": "? Average rate of Shrinkage ?",
+            "id": "finance-avgRateShrinkage",
+            "value": ".61",
+            "help": "Expressed as a percentage of gross sales - General Retail 1.49%, Grocery 3.12%, Electronics 0.36%, Home Center DIY 1.09%",
+            "addon": "%"
+         },
+        {
+            "name": "Recent revenue per employee growth",
+            "id": "finance-recentRevenuePerEmployee",
+            "value": "20",
+            "help": "What the company saw in the last year over year analysis - change with no emphasis or program focus",
+            "addon": "%"
+         },
+        {
+            "name": "Customer Churn Rate",
+            "id": "finance-customerChurnRate",
+            "value": "4",
+            "help": "Client churn is when existing customers stop doing business with you. Retail average is about 4%",
+            "addon": "%"
+         },
+        {
+            "name": "Knowledgeable sales associate uptick in revenue",
+            "id": "finance-uptickInRevenue",
+            "value": "35",
+            "help": "Expected percentage sales revenue increase from a knowledgeable sales associate.  Sales increase by 25%-50% when customers are helped by a knowledgeable retail associate",
+            "addon": "%"
+         },
+        {
+            "name": "Cost of returned merchandise",
+            "id": "finance-costReturnedMerchandise",
+            "value": "8.6",
+            "help": "Expressed as a percentage of sales - includes the cost of the returned item (negative to revenue) and also the expense of processing the retuen",
+            "addon": "%"
+         },
+        {
+            "name": "Annual Inventory turn",
+            "id": "finance-annualInventoryTurn",
+            "value": "5",
+            "help": "The average number of times the entire inventory of the store is sold/replaced -more is better - generally retail lives between 2.85 to 8.53 (non-grocery)",
+            "addon": ""
+         },
+        {
+            "name": "Sales lost to Out of Stock situations",
+            "id": "finance-salesLostToOutOfStock",
+            "value": "4",
+            "help": "expressed as a percentaage of total revenue - this represents the 21-43% of consumers who leave and purchase the desired item at another retailer",
+            "addon": "%"
+         },
+        {
+            "name": "Shrink Reserve",
+            "id": "finance-shrinkReserve",
+            "value": "16298000",
+            "help": "found in annual report",
+            "addon": ""
+         }
+    ],
+"employeeTrunoverInformation": [
+        {
+            "name": "Annual employee turnover rate",
+            "id": "annualTurnoverRate",
+            "value": "50",
+            "help": "Annual employee turnover rate",
+            "addon": "%"
+         },
+        {
+            "catagory": [
+                {
+                    "name": "Exit Interview",
+                    "help": "The time and labor associated with processing out an employee, exit interview, paperwork, follow up benefit filings, unemployment filings and reviews.",
+                    "subcatagory": [
+                        {
+                            "name": "Exit Interview time",
+                            "id": "exitInterviewTime",
+                            "value": "1",
+                            "help": "Amount of time in hours spent on exit interviews to be 1/2 increments, including the time spent talking about 'why'",
+                            "addon": "hour/s"
+                         },
+                        {
+                            "name": "Hourly wage of person doing interview",
+                            "id": "hourlyWage",
+                            "value": "25.00",
+                            "help": "Approximate annual salary (or average if more than 1) of person doing interview divided by 2000",
+                            "addon": "dollars"
+                         },
+                        {
+                            "name": "Paperwork and filings for exiting",
+                            "id": "paperworkWage",
+                            "value": "50.00",
+                            "help": "Time and expense in completing and filling out exit paperwork",
+                            "addon": "dollars"
+                         }
+                    ]
+                 },
+                {
+                    "name": "Productivity Loss",
+                    "help": " The cost associated with managers and other employees covering for departed employee until a new employee is in place and functioning. There is lost productivity as people fill in for others",
+                    "subcatagory": [
+                        {
+                            "name": "Estimated days to replace",
+                            "id": "daysToReplace",
+                            "value": "21",
+                            "help": "",
+                            "addon": "days"
+                         },
+                        {
+                            "name": "Hours per daily shift",
+                            "id": "hoursDaily",
+                            "value": "6",
+                            "help": "",
+                            "addon": "hours"
+                         },
+                        {
+                            "name": "Lost Productivity as % of hours",
+                            "id": "lostProductivity",
+                            "value": "50",
+                            "help": "Enter as a decimal - express as the amount of vacant positions responsibility that will be covered by others",
+                            "addon": "%"
+                         },
+                        {
+                            "name": "Departing employee hourly rate",
+                            "id": "departEmployeeRate",
+                            "value": "10.00",
+                            "help": "",
+                            "addon": "dollars"
+                         }
+                    ]
+                 },
+                {
+                    "name": "Advertising",
+                    "help": "Costs for advsertising the open position - combination of classified, web and other postings plus an employee referral bonus common in most companies",
+                    "subcatagory": [
+                        {
+                            "name": "Avg # of days to Advertise in classifieds",
+                            "id": "daysAdvertise",
+                            "value": "10",
+                            "help": "",
+                            "addon": "days"
+                         },
+                        {
+                            "name": "Price per day for Classified Ad",
+                            "id": "pricePerDay",
+                            "value": "10.00",
+                            "help": "",
+                            "addon": "dollars"
+                         },
+                        {
+                            "name": "Cost of posting on Internet",
+                            "id": "internetCost",
+                            "value": "250.00",
+                            "help": "",
+                            "addon": "dollars"
+                         },
+                        {
+                            "name": "Employee referral bonus",
+                            "id": "referralBonus",
+                            "value": "500.00",
+                            "help": "",
+                            "addon": "dollars"
+                         }
+                    ]
+                 },
+                {
+                    "name": "Resume Research",
+                    "help": "The time spent by an HR professional combing through submitted resumes, reviewing and classifying them and processing out those not qualified",
+                    "subcatagory": [
+                        {
+                            "name": "Number of resumes to review",
+                            "id": "resumeReview",
+                            "value": "25",
+                            "help": "",
+                            "addon": ""
+                         },
+                        {
+                            "name": "Hours per resume ",
+                            "id": "resumeHours",
+                            "value": ".2",
+                            "help": "Enter as decimal for amount of time spent reading each submitted resume (.1 = 6 minutes) will more than one person review resumes?",
+                            "addon": "hour/s"
+                         },
+                        {
+                            "name": "Hourly wage of reviewer",
+                            "id": "reviewerWage",
+                            "value": "25.00",
+                            "help": "",
+                            "addon": "dollars"
+                         }
+                    ]
+                 },
+                {
+                    "name": "Interviewing",
+                    "help": "The time spent by multiple people to conduct an interview and ascertain the candidates qualfications",
+                    "subcatagory": [
+                        {
+                            "name": "Number of candidates to interview",
+                            "id": "candidatesInterview",
+                            "value": "5",
+                            "help": "",
+                            "addon": ""
+                         },
+                        {
+                            "name": "Number of Interviewers",
+                            "id": "interviewees",
+                            "value": "3",
+                            "help": "",
+                            "addon": ""
+                         },
+                        {
+                            "name": "Time per interview",
+                            "id": "interviewTime",
+                            "value": ".5",
+                            "help": "",
+                            "addon": "hour/s"
+                         },
+                        {
+                            "name": "Hourly wage of interviewers",
+                            "id": "intervieweesWage",
+                            "value": "25",
+                            "help": "",
+                            "addon": "dollars"
+                         }
+                    ]
+                 },
+                {
+                    "name": "Reference Checking",
+                    "help": "An HR professional contacting references per candidate",
+                    "subcatagory": [
+                        {
+                            "name": "Number of Candidates to reference check",
+                            "id": "referenceCheck",
+                            "value": "2",
+                            "help": "",
+                            "addon": ""
+                         },
+                        {
+                            "name": "Number of references",
+                            "id": "references",
+                            "value": "3",
+                            "help": "",
+                            "addon": ""
+                         },
+                        {
+                            "name": "Hours per reference checked",
+                            "id": "referenceHours",
+                            "value": ".5",
+                            "help": "",
+                            "addon": "hour/s"
+                         },
+                        {
+                            "name": "Hourly wage of reference checker",
+                            "id": "referenceWage",
+                            "value": "25",
+                            "help": "",
+                            "addon": "dollars"
+                         }
+                    ]
+                 },
+                {
+                    "name": "Background Checks",
+                    "help": "Usually a service fee paid to an external agency",
+                    "subcatagory": [
+                        {
+                            "name": "Cost of Background Check",
+                            "id": "backgroundCheck",
+                            "value": "75.00",
+                            "help": "",
+                            "addon": "dollars"
+                         },
+                        {
+                            "name": "Number of candidates to perform check",
+                            "id": "candidatesCheck",
+                            "value": "2",
+                            "help": "",
+                            "addon": ""
+                         }  
+                    ]
+                 },
+                {
+                    "name": "Drug Screening",
+                    "help": "Prior to a formal offer or as a contigency of the offer a drug screening test performed - usually by an external agency",
+                    "subcatagory": [
+                        {
+                            "name": "Cost of pre-hire drug screening",
+                            "id": "drugScreening",
+                            "value": "25.00",
+                            "help": "",
+                            "addon": "dollars"
+                         }
+                    ]
+                 },
+                {
+                    "name": "Training",
+                    "help": "The time spent by the new employee in orientation and job related training. Delivered as coursework, instuctor led or otherwise",
+                    "subcatagory": [
+                        {
+                            "name": "Number of hours in training",
+                            "id": "trainHours",
+                            "value": "40",
+                            "help": "",
+                            "addon": "hour/s"
+                         },
+                        {
+                            "name": "Hourly Wage during training",
+                            "id": "trainWage",
+                            "value": "10.00",
+                            "help": "",
+                            "addon": "dollars"
+                         }
+                    ]
+                 },
+                {
+                    "name": "Mentoring",
+                    "help": "The time spent by an existing senior employee to mentor the new hire on the job. Causing lower productivity by the mentor and still not full productivity by the new hire.",
+                    "subcatagory": [
+                        {
+                            "name": "Number of hours in mentoring",
+                            "id": "mentorHours",
+                            "value": "40",
+                            "help": "",
+                            "addon": "hour/s"
+                         },
+                        {
+                            "name": "Hourly Wage of Mentor",
+                            "id": "mentorWage",
+                            "value": "15",
+                            "help": "",
+                            "addon": "dollars"
+                         }
+                    ]
+                 }
+            ]
+        }
+    ]
+    
+}

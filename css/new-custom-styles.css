@@ -1,0 +1,677 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,700,800&display=swap');
+
+.right-flank .form-group{
+     width: 40%;
+     float: left;
+     margin-right: 10%;
+}
+ .right-flank .form-group .input-group {
+     width: 100%;
+     position: relative;
+}
+ .right-flank .form-input-clear, .right-flank input[type=range]{
+     display: none;
+}
+ #turnover-report{
+     margin-top: 15vh;
+}
+ .calculator-steps{
+     display: none;
+}
+ .right-flank span.form-input {
+     border: 1px solid #bcbcbc !important;
+     border-left: 0px !important;
+     border-radius: 5px;
+}
+ .pills-tab.is_completed .pill-description:hover {
+     cursor: pointer;
+}
+ .informations-forms{
+     border-radius: 10px;
+    /* border: 1px solid #bcbcbc;
+     */
+     margin-bottom: 5vh;
+}
+ .continue-wrapper{
+     display: inline-block;
+     width: 100%;
+}
+/* div#the_first_step_form a {
+     background: #bcbcbc;
+}
+ */
+ .continue-next-step {
+     background: #005dac;
+     color: #fff !important;
+     padding: 10px;
+     margin-top: 15px;
+     display: inline-block;
+     border-radius: 5px;
+     padding-left: 40px;
+     padding-right: 40px;
+     transition: .4s;
+     font-size: 13px;
+     text-transform: uppercase;
+     font-weight: 300;
+     vertical-align: middle;
+     min-height: 45px;
+     line-height: 1.9;
+}
+ .continue-next-step i {
+     padding-left: 5px;
+}
+ .continue-next-step:hover {
+     background: #1FC2B2;
+     color: #fff;
+     outline: none;
+     text-decoration: none;
+}
+ .right-flank .input-group input {
+     height: 50px;
+     border: 1px solid #bcbcbc;
+     border-radius: 5px !important;
+     background: #fafafa;
+     color: #272727;
+     font-family: 'Montserrat', sans-serif;
+     padding-left: 25px;
+     padding-right: 25px;
+}
+
+.right-flank .input-group input::placeholder{
+    color: #BABABA;
+}
+ span.label-text {
+     font-weight: 600 !important;
+     color: #333;
+     font-family: 'Montserrat', sans-serif;
+     font-size: 14px;
+}
+ span.input-group-addon.form-input.form-input-addon {
+     position: absolute;
+     right: 25px;
+     top: 20px;
+     z-index: 99;
+     border: none !important;
+     background: transparent;
+     width: 55px;
+     padding: 0;
+     font-size: 14px;
+     color: #c6c6c6;
+     text-align: right;
+}
+ .pills-tab.is_completed {
+     color: #272727;
+     cursor: pointer;
+}
+ .pills-tab.is_completed .the_pill {
+     background: #272727;
+     position: relative;
+}
+
+.pills-tab.is_completed .the_pill:hover {
+    opacity: 0.5;
+}
+ .pills-tab.is_completed .the_pill:before {
+     content: "\f00c";
+     display: inline-block;
+     font: normal normal normal 14px/1 FontAwesome;
+     font-size: inherit;
+     text-rendering: auto;
+     -webkit-font-smoothing: antialiased;
+     -moz-osx-font-smoothing: grayscale;
+     color: #fff;
+     position: absolute;
+     top: 3px;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     text-align: center;
+}
+ .group-title.group-name-ctm {
+     display: inline-block;
+     width: 100%;
+     margin-top: 10px;
+}
+ .hide-display{
+     display:none;
+}
+ .bg-new-light {
+     background: #0e4275;
+     border: none;
+     color: #fff;
+}
+ .bg-new-light.main-boxed div {
+     text-align: center;
+     padding-top: 45px;
+     color: #fff;
+     font-size: 15px;
+     padding-bottom: 0px;
+     line-height: 35px;
+}
+ .bg-new-light.main-boxed span {
+     font-family: 'Montserrat', sans-serif;
+     display: inline-block;
+     width: 100%;
+     text-align: center;
+     padding-bottom: 45px;
+     font-size: 32px;
+     font-weight: 800;
+     line-height: 35px;
+}
+ .box-group.with-border-shadow {
+     border: 2px solid #e8e8e8;
+     border-radius: 5px;
+     padding-top: 25px;
+     padding-bottom: 15px;
+     margin-top: 20px;
+     -webkit-box-shadow: -6px 7px 4px -3px rgba(188,188,188,0.4);
+     -moz-box-shadow: -6px 7px 4px -3px rgba(188,188,188,0.4);
+     box-shadow: -6px 7px 4px -3px rgba(188,188,188,0.4);
+}
+ .guide-steps-report {
+     padding-left: 35px;
+     padding-right: 35px;
+     position: relative;
+     padding-bottom: 5px;
+}
+ .pad-the-box {
+     padding-left: 35px;
+     padding-right: 35px;
+     display: inline-block;
+     width: 100%;
+    /* padding-bottom: 35px;
+     */
+     padding-bottom: 0;
+}
+ .pad-the-box div {
+     width: 50%;
+     float: left;
+}
+ .guide-steps-report span {
+     color: #272727;
+     font-size: 14px;
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 600;
+}
+ a.email-report:hover {
+     outline: none;
+     text-decoration: none;
+     background: #1FC2B2;
+}
+ a.target-specific-step {
+     position: absolute;
+     right: 30px;
+     top: 20px;
+}
+ .box-group.with-border-shadow hr {
+     margin-top: 15px;
+}
+ span.editactionstep {
+     font-size: 11px;
+     font-weight: 800;
+     font-family: 'Montserrat', sans-serif;
+     text-transform: uppercase;
+     border: 2px solid #272727;
+     color: #272727;
+     padding: 3px 10px;
+     border-radius: 5px;
+}
+ .the-forms.with-turnover-result h3 {
+     margin-bottom: 45px;
+}
+ .guide-steps-report h4 {
+     font-weight: 800;
+     font-family: 'Montserrat', sans-serif;
+     /* text-transform: uppercase; */
+     text-transform: capitalize;
+     font-size: 24px;
+     margin-top: 3px;
+}
+ .pad-the-box .box-value {
+     font-weight: 800;
+     font-family: 'Montserrat', sans-serif;
+     text-transform: uppercase;
+     font-size: 32px;
+     margin-top: 3px;
+     display: block;
+     line-height: 35px;
+}
+
+
+ .pad-the-box .box-text {
+     color: #666666;
+     font-size: 15px;
+     display: block;
+     padding-bottom: 10px;
+     line-height: 35px;
+}
+
+@media( max-width : 360px ) {
+    .pad-the-box .box-value {
+        font-size: 18px;
+   } 
+   .pad-the-box .box-text {
+        font-size: 11px;
+        line-height: 22px;
+    }
+    
+    .pad-the-box {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+} 
+
+
+ .pad-the-box.last-row-box {
+     padding-bottom: 0;
+}
+ .with-turnover-result{
+     position: relative;
+}
+ .footer-wrap-email-report {
+     display: inline-block;
+     width: 100%;
+     position: relative;
+     margin-top: 55px;
+}
+ a.email-report i {
+     padding-left: 5px;
+}
+ a.email-report {
+     position: absolute;
+     right: 45px;
+     top: 15px;
+     background: #005dac;
+     color: #fff;
+     padding-left: 30px;
+     padding-right: 30px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     border-radius: 5px;
+     font-size: 13px;
+     font-weight: 300;
+     transition: .4s;
+     min-height: 45px;
+     display: inline-block;
+     line-height: 1.9;
+
+}
+ div#client-info-modal-new .modal-body .form-group {
+     width: 46%;
+     float: left;
+     display: inline-block;
+     margin-right: 7%;
+     text-align: left;
+}
+ .form-input-label.help {
+     background: #005dac;
+     border-radius: 5px 5px 0px 0px;
+     padding: 4px 25px;
+}
+ .footer-wrap-email-report a {
+     position: relative;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     top: 0;
+}
+ label.form-input-label.help .label-info-icon {
+     visibility: hidden;
+}
+ i.fa.fa-times-circle.label-collapse-icon {
+     color: #fff;
+}
+ i.fa.fa-question-circle.label-info-icon {
+     color: #005dac;
+}
+ .input-group-addon:not(:first-child):not(:last-child), .input-group-btn:not(:first-child):not(:last-child), .input-group .form-control:not(:first-child):not(:last-child) {
+     border-radius: 0;
+     border-radius: 0px 5px 5px 0px;
+     background: #fafafa;
+}
+ .pills-container.restrict_pills{
+     pointer-events: none;
+     cursor: default;
+}
+ .action-not-ready{
+     pointer-events: none;
+     cursor: default;
+     background: #BCBCBC;
+}
+ #client-info-modal-new .vertical-alignment-helper h2{
+     padding-left: 0;
+     padding-right: 0;
+     margin-bottom: 3px;
+     font-size: 32px;
+     line-height: 35px;
+}
+ .has-error .form-control {
+     border-color: #a94442 !important;
+}
+ div#backgroundchecks .the-forms div:first-child {
+     display: none;
+}
+ #client-info-modal-new label.labelText {
+     font-weight: 600;
+     color: #000;
+     font-size: 14px;
+}
+ div#client-info-modal-new .modal-body .form-group:nth-child(odd) {
+     margin-right: 0;
+}
+ #client-info-modal-new .body-content {
+     margin-bottom: 25px;
+}
+ #client-info-modal-new .modal-body{
+     display: inline-block;
+     width: 100%;
+}
+ #client-info-modal-new .form-input {
+     border: 1px solid #c8c8c8;
+     border-radius: 0;
+     background: #fafafa;
+     width: 100%;
+     border-radius: 4px;
+     height: 45px;
+     color: #666666;
+}
+ .add-logo-leftflank {
+     position: absolute;
+     bottom: 30px;
+     left: 0;
+     right: 0;
+     text-align: center;
+}
+ #client-info-modal-new button.hghs-btn.hghs-btn-primary {
+     position: relative;
+     left: 0;
+     float: left;
+     margin-bottom: 0;
+     margin-top: 15px;
+     background: #005dac;
+     color: #fff;
+     padding-left: 30px;
+     padding-right: 30px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     border-radius: 5px;
+     font-size: 13px;
+     font-weight: 300;
+     transition: .4s;
+     border: none;
+     min-height: 45px;
+}
+ @media(min-width:0){
+     .with-turnover-result{
+         width: 100%;
+    }
+    /* a.email-report {
+         right: 0;
+         top: -30px;
+    }*/
+     .footer-wrap-email-report a{
+         position: relative;
+         top: 0;
+         right: 0;
+    }
+     .content-steps label {
+         font-size: 16px;
+    }
+     .content-steps .current-step-side {
+         font-size: 23px;
+    }
+     .number-step{
+         font-size: 315px;
+    }
+     .right-flank .form-group{
+         width: 100%;
+    }
+     .pill-description span{
+         font-size: 12px;
+    }
+     .landing-page-content {
+         width: 100%;		 
+    }
+	.landing-page {
+		overflow:hidden;
+	}
+     .pill-description p{
+         font-size: 13px;
+    }
+}
+@media(max-width:480px){
+	div#client-info-modal-new .modal-body .form-group {
+		width:100%;
+	}
+}
+ @media(max-width:505px){
+     .the_pill{
+         height: 45px;
+         width: 45px;
+         margin: 0 auto;
+         border-radius: 100%;
+    }
+     .pill-description span{
+         display:none !important;
+    }
+     .pill-description p {
+         font-size: 10px;
+         text-align: center;
+         word-break: break-word;
+    }
+     .pill-description{
+         padding-left: 0;
+    }
+     .pills-tab.is_completed .the_pill:before{
+         top: 15px;
+    }
+}
+ @media(max-width:767px){
+     .leftbar-flank{
+         display: none;
+    }
+     .informations-forms{
+         padding: 25px;
+    }
+     .right-flank{
+         padding-left: 25px;
+         padding-right: 25px;
+    }
+     .informations-forms{
+         margin-left: 0;
+    }
+     a.email-report{
+         top:0 !important;
+		 position:relative;
+		 right:auto;
+		 display:inline-block;
+		 margin-bottom:28px;
+    }
+     .the-forms.with-turnover-result h3 {
+         margin-bottom: 2rem;
+         margin-top: 2rem;
+    }
+}
+
+ @media(max-width:991px){
+     a.target-specific-step{
+         position: relative;
+         top:0;
+         left: 0;
+         right: 0;
+    }
+	.guide-steps-report {
+		height:auto !important;
+	}
+}
+
+ @media(max-width:1200px){
+	.the-forms.with-turnover-result h3 {
+		max-width:68%;
+	}
+	a.email-report {
+		right:0px;
+	}
+	.guide-steps-report h4 { padding-right:0; }
+ }
+
+ @media(max-width : 1343px ) and (min-width: 1200px ) {
+    a.email-report{
+        top:0 !important;
+        position:relative;
+        right:auto;
+        display:block;
+        margin-bottom:28px;
+        text-align: center;
+   }
+ }
+ 
+@media(max-width:1500px){
+	.guide-steps-report h4 { padding-right:60px; }
+}
+
+ @media(min-width:992px){
+    /* a.email-report{
+         top: -30px;
+    }*/
+
+    div#client-info-modal-new .modal-dialog {
+        width: 800px;
+    }
+
+     .number-step {
+         font-size: 385px;
+    }
+     .with-turnover-result{
+         width: 100%;
+    }
+     .content-steps .current-step-side {
+         font-size: 32px;
+    }
+     .content-steps label {
+         font-size: 22px;
+    }
+     .right-flank .form-group{
+         width: 100%;
+    }
+     .pill-description span{
+         font-size: 14px;
+    }
+     .pill-description p{
+         font-size: 16px;
+    }
+     .the-forms.with-turnover-result .box-group {
+         width: 100%;
+         float: left;
+         margin-right: 4%;
+    }
+     .the-forms {
+         width: 100%;
+         margin: 0 auto;
+         float: none;
+    }
+     .the-forms.with-turnover-result {
+         width: 94%;
+    }
+     .landingpage-content {
+         width: 55%;
+         margin: 0 auto;
+    }
+     #employee-calculator .modal-dialog {
+         width: 795px;
+    }
+     .vertical-alignment-helper h2{
+         padding-left: 75px;
+         padding-right: 75px;
+    }
+     #employee-calculator .body-content {
+         padding-left: 55px;
+         padding-right: 55px;
+    }
+    /* a.email-report {
+         right: 45px;
+         top: 15px;
+    }
+     */
+}
+
+ @media(min-width:1200px){
+     /* .box-group.with-border-shadow{
+        height: 289px;
+    } */
+    /* .box-group.with-border-shadow.ctm-box-adjust {
+        height: 340px;
+    } */
+
+    .groupone__step-five {
+        float: left;
+        display: inline-block;
+        width: 46%;
+        margin-right: 4%;
+    }
+
+    .grouptwo__step-five {
+        float: left;
+        width: 46%;
+        display: inline-block;
+    }
+
+     .number-step{
+         font-size: 320px;
+    }
+     .the-forms.with-turnover-result .box-group {
+         width: 46%;
+    }
+     .the-forms{
+         width: 90%;
+    }
+     .right-flank .form-group{
+         width: 40%;
+         min-height: 110px;
+    }
+	.guide-steps-report {
+		height:auto !important;
+	}
+}
+ @media (min-width : 1395px){
+     .number-step{
+         font-size: 545px;
+    }
+     .right-flank .form-group{
+         width: 40%;
+         min-height: 95px;
+    }
+}
+
+@media( max-width : 1200px ) {
+    .box-group {
+        height: auto;
+    }
+}
+
+#step-one-calculation {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+@media(max-width : 767px ) {
+    #step-one-calculation {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+.main-flank {
+    background-color: #808080;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.groupone__step-five .box-group {
+    width: 100% !important;
+}
+
+.grouptwo__step-five .box-group {
+    width: 100% !important;
+}

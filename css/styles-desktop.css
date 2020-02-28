@@ -1,0 +1,185 @@
+@media only screen and (min-width: 850px) {
+
+  #main-content {
+    align-items: flex-start;
+    display: flex;
+    padding: 24px 48px 48px 48px;
+    width: 100%;
+
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+  }
+
+  /* FOOTER */
+  #form-footer > *:first-child {
+    margin-right: 250px;
+  }
+
+  /* NAV */
+  #menu, #nav {
+    display: none;
+  }
+  #nav-full {
+    align-items: stretch;
+    background-color: white;
+    display: flex;
+    height: inherit;
+
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+  }
+  #nav-full > .tab {
+    align-items: center;
+    border-right: 1px solid #00AFAC;
+    color: #1AB0AC;
+    display: flex;
+    flex: 1;
+    font-size: 24px;
+    font-weight: 500;
+    height: inherit;
+    justify-content: center;
+    padding: 8px;
+    text-align: center;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+  }
+  #nav-full > .tab > .tab-label {
+
+  }
+  #nav-full > .tab:first-child {
+    border-left: none;
+  }
+  #nav-full > .tab:last-child {
+    border-right: none;
+  }
+  #nav-full > .tab:hover {
+    background-color: #f1f1f1;
+  }
+  #nav-full > .tab.active {
+    background-color: #00AFAC;
+    color: white;
+  }
+  #nav-full > .tab:active {
+    background-color: #009896;
+    color: white;
+  }
+
+  /* FORM */
+  #form-content {
+    flex: 2;
+    /* margin: 0 0px auto 48px;
+    max-width: 700px; */
+
+    -webkit-box-flex: 2;
+    -webkit-flex: 2;
+    -ms-flex: 2;
+  }
+
+  /* PAGE INFO */
+  #page-info-container {
+    flex: 1;
+    max-width: 300px;
+
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+  }
+  #page-info-close {
+    display: none;
+  }
+  #page-info-text {
+    margin-top: 28px;
+  }
+
+  /* SALES REPORT */
+  #sales-boxes-container {
+    display: flex;
+
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+  }
+  #sales-boxes-container > .box-group {
+    width: 100%;
+  }
+  #sales-boxes-container > .box-group:first-child {
+    margin-right: 32px;
+  }
+  #sales-cards-container {
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+  }
+  #sales-cards-container > .card {
+    margin: 16px 0;
+    width: 350px;
+  }
+  #returned-merchandise {
+    order: 1;
+  }
+  #out-of-stock {
+    order: 2;
+  }
+  #shrinkage {
+    order: 3;
+  }
+  #unconverted-visitors {
+    order: 4;
+  }
+  #loyalty-churn {
+    order: 6;
+  }
+  #disengaged-employees {
+    order: 5;
+  }
+
+  /* SUMMARY REPORT */
+  #form-content > h3 {
+    margin-top: 0;
+  }
+  #impact-report {
+    margin-left: 50px;
+    width: 400px;
+  }
+  #summary-report {
+    width: 400px;
+  }
+  #summary-reports-container {
+    display: flex;
+    justify-content: center;
+
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+  }
+
+  /* TURNOVER REPORT */
+  #turnover-boxes-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 100px;
+
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+  }
+  #turnover-boxes-container > .box-group {
+    margin-right: 50px;
+    width: 400px;
+  }
+
+}

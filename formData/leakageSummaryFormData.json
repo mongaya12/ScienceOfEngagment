@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Unconverted Sales",
+    "id": "impactSales",
+    "defaultValue": "3",
+    "help": "",
+    "addon": "%",
+    "max": "100",
+    "min": "0"
+  },
+  {
+    "name": "Unconverted Returns",
+    "id": "impactReturns",
+    "defaultValue": "3",
+    "help": "",
+    "addon": "%",
+    "max": "100",
+    "min": "0"
+  },
+  {
+    "name": "Lost Sales, OOS",
+    "id": "impactOos",
+    "defaultValue": "3",
+    "help": "",
+    "addon": "%",
+    "max": "100",
+    "min": "0"
+  },
+  {
+    "name": "Shrinkage",
+    "id": "impactShrinkage",
+    "defaultValue": "5",
+    "help": "",
+    "addon": "%",
+    "max": "100",
+    "min": "0"
+  },
+  {
+    "name": "Lost Sales, Churn",
+    "id": "impactChurn",
+    "defaultValue": "5",
+    "help": "",
+    "addon": "%",
+    "max": "100",
+    "min": "0"
+  },
+  {
+    "name": "Lost Sales, Poor Knowledge",
+    "id": "impactKnowledge",
+    "defaultValue": "5",
+    "help": "",
+    "addon": "%",
+    "max": "100",
+    "min": "0"
+  },
+  {
+    "name": "Employee Turnover",
+    "id": "impactTurnover",
+    "defaultValue": "10",
+    "help": "",
+    "addon": "%",
+    "max": "100",
+    "min": "0"
+  }
+]

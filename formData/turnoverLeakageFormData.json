@@ -1,0 +1,342 @@
+[
+  {
+    "name": "",
+    "help": "",
+    "id": "",
+    "entries": [
+        {
+          "name": "Annual employee turnover rate",
+          "id": "annualTurnoverRate",
+          "defaultValue": "1-100",
+          "help": "",
+          "addon": "%",
+          "maxValue": "100",
+          "minValue": "1"
+        }
+      ]
+  },
+  {
+    "name": "Exit Interview",
+    "help": "The time and labor associated with processing out an employee, exit interview, paperwork, follow up benefit filings, unemployment filings and reviews.",
+    "entries": [
+      {
+        "name": "Exit Interview time",
+        "id": "exitInterviewTime",
+        "defaultValue": "1/2 hour increments",
+        "help": "Amount of time in hours spent on exit interviews to be 1/2 hour increments, including the time spent talking about 'why'",
+        "addon": "Hour(s)",
+        "maxValue": "10",
+        "minValue": ".5"
+      },
+      {
+        "name": "Hourly wage of person doing interview",
+        "id": "hourlyWage",
+        "defaultValue": "1-100",
+        "help": "Approximate annual salary (or average if more than 1) of person doing interview divided by 2000",
+        "addon": "Dollar(s)",
+        "maxValue": "100",
+        "minValue": "1"
+      },
+      {
+        "name": "Paperwork and filings for exiting",
+        "id": "paperworkWage",
+        "defaultValue": "0-500",
+        "help": "Time and expense in completing and filling out exit paperwork",
+        "addon": "Dollar(s)",
+        "maxValue": "500",
+        "minValue": "0"
+      }
+    ]
+  },
+  {
+    "name": "Productivity Loss",
+    "help": " The cost associated with managers and other employees covering for departed employee until a new employee is in place and functioning. There is lost productivity as people fill in for others",
+    "entries": [
+      {
+        "name": "Estimated days to replace",
+        "id": "daysToReplace",
+        "defaultValue": "1-365",
+        "help": "",
+        "addon": "Day(s)",
+        "maxValue": "365",
+        "minValue": "1"
+      },
+      {
+        "name": "Hours per daily shift",
+        "id": "hoursDaily",
+        "defaultValue": "1-24",
+        "help": "",
+        "addon": "Hour(s)",
+        "maxValue": "24",
+        "minValue": "1"
+      },
+      {
+        "name": "Lost Productivity as % of hours",
+        "id": "lostProductivity",
+        "defaultValue": "1-100",
+        "help": "Enter as a decimal - express as the amount of vacant positions responsibility that will be covered by others",
+        "addon": "%",
+        "maxValue": "100",
+        "minValue": "1"
+      },
+      {
+        "name": "Departing employee hourly rate",
+        "id": "departEmployeeRate",
+        "defaultValue": "1-100",
+        "help": "",
+        "addon": "Dollar(s)",
+        "maxValue": "100",
+        "minValue": "1"
+      }
+    ]
+  },
+  {
+    "name": "Advertising",
+    "help": "Costs for advertising the open position - combination of classified, web and other postings plus an employee referral bonus common in most companies",
+    "entries": [
+      {
+        "name": "Avg # of days to advertise in classifieds",
+        "id": "daysAdvertise",
+        "defaultValue": "0-365",
+        "help": "",
+        "addon": "Day(s)",
+        "maxValue": "365",
+        "minValue": "0"
+      },
+      {
+        "name": "Price per day for classified Ad",
+        "id": "pricePerDay",
+        "defaultValue": "0-100",
+        "help": "",
+        "addon": "Dollar(s)",
+        "maxValue": "100",
+        "minValue": "0"
+      },
+      {
+        "name": "Cost of posting on Internet",
+        "id": "internetCost",
+        "defaultValue": "0-1000",
+        "help": "",
+        "addon": "Dollar(s)",
+        "maxValue": "1000",
+        "minValue": "0"
+      },
+      {
+        "name": "Employee referral bonus",
+        "id": "referralBonus",
+        "defaultValue": "0-5000",
+        "help": "",
+        "addon": "Dollar(s)",
+        "maxValue": "5000",
+        "minValue": "0"
+      }
+    ]
+  },
+  {
+    "name": "Resume Research",
+    "help": "The time spent by an HR professional combing through submitted resumes, reviewing and classifying them and processing out those not qualified",
+    "entries": [
+      {
+        "name": "Number of resumes to review",
+        "id": "resumeReview",
+        "defaultValue": "1-200",
+        "help": "",
+        "addon": "",
+        "maxValue": "200",
+        "minValue": "1"
+      },
+      {
+        "name": "Hours per resume ",
+        "id": "resumeHours",
+        "defaultValue": "1/2 hour increments",
+        "help": "Enter as decimal for amount of time spent reading each submitted resume (.1 = 6 minutes) will more than one person review resumes?",
+        "addon": "Hour(s)",
+        "maxValue": "8",
+        "minValue": ".5",
+        "step": ".1"
+      },
+      {
+        "name": "Hourly wage of reviewer",
+        "id": "reviewerWage",
+        "defaultValue": "1-100",
+        "help": "",
+        "addon": "Dollar(s)",
+        "maxValue": "100",
+        "minValue": "1"
+      }
+    ]
+  },
+  {
+    "name": "Interviewing",
+    "help": "The time spent by multiple people to conduct an interview and ascertain the candidates qualifications",
+    "entries": [
+      {
+        "name": "Number of candidates to interview",
+        "id": "candidatesInterview",
+        "defaultValue": "1-100",
+        "help": "",
+        "addon": "",
+        "maxValue": "100",
+        "minValue": "1"
+      },
+      {
+        "name": "Number of Interviewers",
+        "id": "interviewees",
+        "defaultValue": "1-10",
+        "help": "",
+        "addon": "",
+        "maxValue": "10",
+        "minValue": "1"
+      },
+      {
+        "name": "Time per interview",
+        "id": "interviewTime",
+        "defaultValue": "1/2 hour increments",
+        "help": "",
+        "addon": "Hour(s)",
+        "maxValue": "5",
+        "minValue": ".5",
+        "step": ".1"
+      },
+      {
+        "name": "Hourly wage of interviewers",
+        "id": "intervieweesWage",
+        "defaultValue": "1-100",
+        "help": "",
+        "addon": "Dollar(s)",
+        "maxValue": "100",
+        "minValue": "1"
+      }
+    ]
+  },
+  {
+    "name": "Reference Checking",
+    "help": "An HR professional contacting references per candidate",
+    "entries": [
+      {
+        "name": "Number of Candidates to reference check",
+        "id": "referenceCheck",
+        "defaultValue": "0-25",
+        "help": "",
+        "addon": "",
+        "maxValue": "25",
+        "minValue": "0"
+      },
+      {
+        "name": "Number of references",
+        "id": "references",
+        "defaultValue": "0-50",
+        "help": "",
+        "addon": "",
+        "maxValue": "50",
+        "minValue": "0"
+      },
+      {
+        "name": "Hours per reference checked",
+        "id": "referenceHours",
+        "defaultValue": "1/2 hour increments",
+        "help": "",
+        "addon": "Hour(s)",
+        "maxValue": "10",
+        "minValue": ".5",
+        "step": ".1"
+      },
+      {
+        "name": "Hourly wage of reference checker",
+        "id": "referenceWage",
+        "defaultValue": "1-100",
+        "help": "",
+        "addon": "Dollar(s)",
+        "maxValue": "100",
+        "minValue": "1"
+      }
+    ]
+  },
+  {
+    "name": "Background Checks",
+    "help": "Usually a service fee paid to an external agency",
+    "entries": [
+      {
+        "name": "Cost of background check",
+        "id": "backgroundCheck",
+        "defaultValue": "0-500",
+        "help": "",
+        "addon": "Dollar(s)",
+        "maxValue": "500",
+        "minValue": "0"
+      },
+      {
+        "name": "Number of candidates to perform check",
+        "id": "candidatesCheck",
+        "defaultValue": "0-25",
+        "help": "",
+        "addon": "",
+        "maxValue": "25",
+        "minValue": "0"
+      }
+    ]
+  },
+  {
+    "name": "Drug Screening",
+    "help": "Prior to a formal offer or as a contingency of the offer a drug screening test performed - usually by an external agency",
+    "entries": [
+      {
+        "name": "Cost of pre-hire drug screening",
+        "id": "drugScreening",
+        "defaultValue": "0-200",
+        "help": "",
+        "addon": "Dollar(s)",
+        "maxValue": "200",
+        "minValue": "0"
+      }
+    ]
+  },
+  {
+    "name": "Training",
+    "help": "The time spent by the new employee in orientation and job related training. Delivered as coursework, instructor led or otherwise",
+    "entries": [
+      {
+        "name": "Number of hours in training",
+        "id": "trainHours",
+        "defaultValue": "0-100",
+        "help": "",
+        "addon": "Hour(s)",
+        "maxValue": "100",
+        "minValue": "0"
+      },
+      {
+        "name": "Hourly Wage during training",
+        "id": "trainWage",
+        "defaultValue": "0-100",
+        "help": "",
+        "addon": "Dollar(s)",
+        "maxValue": "100",
+        "minValue": "0"
+      }
+    ]
+  },
+  {
+    "name": "Mentoring",
+    "help": "The time spent by an existing senior employee to mentor the new hire on the job. Causing lower productivity by the mentor and still not full productivity by the new hire.",
+    "entries": [
+      {
+        "name": "Number of hours in mentoring",
+        "id": "mentorHours",
+        "defaultValue": "0-100",
+        "help": "",
+        "addon": "Hour(s)",
+        "maxValue": "100",
+        "minValue": "0"
+      },
+      {
+        "name": "Hourly Wage of Mentor",
+        "id": "mentorWage",
+        "defaultValue": "0-100",
+        "help": "",
+        "addon": "Dollar(s)",
+        "maxValue": "100",
+        "minValue": "0"
+      }
+    ]
+  }
+]

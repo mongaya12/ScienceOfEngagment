@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Total Number of Stores",
+    "id": "totalStores",
+    "defaultValue": "1-5000",
+    "help": "Use the end of year store count as your number",
+    "addon": "",
+    "maxValue": "5000",
+    "minValue": "1"
+  },
+  {
+    "name": "Average number of employees per store",
+    "id": "employeePerStore",
+    "defaultValue": "1-100",
+    "help": "Found in annual report or through in store interview",
+    "addon": "",
+    "maxValue": "100",
+    "minValue": "1"
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "name": "Number of Days per week Store is Open",
+    "id": "daysOpen",
+    "defaultValue": "7",
+    "help": "Days per week that store is open at all for business",
+    "addon": "days",
+	"maxValue": "7",
+	"minValue": "0"
+  },
+  {
+    "name": "Average number of customers per day",
+    "id": "avgCustomersDay",
+    "defaultValue": "500",
+    "help": "",
+    "addon": "",
+	"maxValue": "10000",
+	"minValue": "0"
+  },
+  {
+    "name": "Average conversion rate",
+    "id": "avgConversionRate",
+    "defaultValue": "80",
+    "help": "Expressed as a percentage that represents the number of people who visited and purchased something",
+    "addon": "%",
+	"maxValue": "100",
+	"minValue": "0"
+  },
+  {
+    "name": "% of store employees considered knowledgeable",
+    "id": "percentEmployeesKnowledgeable",
+    "defaultValue": "75",
+    "help": "Derived from in store interview",
+    "addon": "%",
+	"maxValue": "100",
+	"minValue": "0"
+  },
+  {
+    "name": "Percentage of daily visitors that are loyalty members",
+    "id": "percentVisitorsLoyaltyMembers",
+    "defaultValue": "80",
+    "help": "Derived from in store interview",
+    "addon": "%",
+	"maxValue": "100",
+	"minValue": "0"
+  },
+  {
+    "name": "Average increase in loyalty program transactions",
+    "id": "avgIncreaseLoyaltyTransactions",
+    "defaultValue": "5",
+    "help": "The percentage more that loyalty member spends per transaction",
+    "addon": "%",
+	"maxValue": "100",
+	"minValue": "0"
+  },
+  {
+    "name": "Annual Revenue",
+    "id": "financeAnnualRevenue",
+    "defaultValue": "2671000000",
+    "help": "This is found in the annual report. Also titled 'Net Sales'",
+    "addon": "dollars",
+	"maxValue": "5000000000",
+	"minValue": "0"
+  },
+  {
+    "name": "Net Income/Earnings",
+    "id": "financeNetIncome",
+    "defaultValue": "202849000",
+    "help": "This is found in the annual report and is the final number after costs attributed to Taxes, COGs, SG&A, Interest are subtracted.",
+    "addon": "dollars",
+	"maxValue": "1000000000",
+	"minValue": "0"
+  },
+  {
+    "name": "% of revenue attributed to eCommerce",
+    "id": "financePercentRevenueEcommerce",
+    "defaultValue": "3.6",
+    "help": "This can be found in annual reports.  It is essential to understand what rate of the revenue is from eCommerce to ensure credibility",
+    "addon": "%",
+	"maxValue": "100",
+	"minValue": "0"
+  },
+  {
+    "name": "Customer Churn Rate",
+    "id": "financeCustomerChurnRate",
+    "defaultValue": "4",
+    "help": "Client churn is when existing customers stop doing business with you. Retail average is about 4%",
+    "addon": "%",
+	"maxValue": "100",
+	"minValue": "0"
+  },
+  {
+    "name": "Knowledgeable sales associate uptick in revenue",
+    "id": "financeUptickInRevenue",
+    "defaultValue": "35",
+    "help": "Expected percentage sales revenue increase from a knowledgeable sales associate.  Sales increase by 25%-50% when customers are helped by a knowledgeable retail associate",
+    "addon": "%",
+	"maxValue": "100",
+	"minValue": "0"
+  },
+  {
+    "name": "Cost of returned merchandise",
+    "id": "financeCostReturnedMerchandise",
+    "defaultValue": "8.6",
+    "help": "Expressed as a percentage of sales - includes the cost of the returned item (negative to revenue) and also the expense of processing the return",
+    "addon": "%",
+	"maxValue": "100",
+	"minValue": "0"
+  },
+  {
+    "name": "Sales lost to Out of Stock situations",
+    "id": "financeSalesLostToOutOfStock",
+    "defaultValue": "4",
+    "help": "Expressed as a percentage of total revenue - this represents the 21-43% of consumers who leave and purchase the desired item at another retailer",
+    "addon": "%",
+	"maxValue": "100",
+	"minValue": "0"
+  },
+  {
+    "name": "Shrink Reserve",
+    "id": "financeShrinkReserve",
+    "defaultValue": "16298000",
+    "help": "Found in annual report",
+    "addon": "",
+	"maxValue": "50000000",
+	"minValue": "0"
+  }
+]
